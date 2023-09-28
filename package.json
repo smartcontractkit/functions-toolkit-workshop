@@ -6,7 +6,7 @@
   "dependencies": {
     "@chainlink/contracts": "^0.7.1",
     "@chainlink/env-enc": "^1.0.5",
-    "@chainlink/functions-toolkit": "^0.2.1",
+    "@chainlink/functions-toolkit": "^0.2.4",
     "@types/node": "^20.6.2",
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.1",
