@@ -50,7 +50,11 @@ SECOND_PRIVATE_KEY --> Optional if you want to experiment with transferring subs
 
 5.  Completed reference code can be found in the  `01_Workshop` [branch](https://github.com/zeuslawyer/sc2023-toolkit-workshop/tree/01_Workshop). 
 </br>
+
 4. We run completed scripts with `npx ts-node 0*_script_filename` for each of the sequenced steps in the `./scripts` directory.
 </br>
+
 5. Script 2 (`02_createSubscription`) can be skipped if you use the UI to create a subscription, fund it and add the Consumer Contract to it. If your wallet is not allowlisted this is the best way to get allowlisted and create your subscription at the same time.
+</br> 
+
 6. When running your request script in `./scripts/04_request.ts` you can open a new terminal window or tab, set the env-enc password with `npx env-enc set-pw` (so that your environment variables can be read) and then run a listener for your request with `npx ts-node scripts/06_listen.ts`.  This will run a listener, and when your request is fulfilled it will print the results of that request fulfillment to your console.
