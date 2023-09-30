@@ -14,8 +14,8 @@ const donIdBytes32 = utils.formatBytes32String(networks[NETWORK].donId);
 const deployedFunctionsConsumerContract = async (): Promise<Contract> => {
   
   const contractFactory = new ContractFactory(
-    abi, // Replace with your contract's ABI
-    bytecode, // Replace with your contract's bytecode
+    abi, 
+    bytecode, 
     wallet
   );
 
