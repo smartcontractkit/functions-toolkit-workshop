@@ -24,7 +24,7 @@ SECOND_PRIVATE_KEY --> Optional if you want to experiment with transferring subs
 
 ## Steps
 
-1. Go to the [Functions Subscriptions App](https://functions.chain.link). This is the subscription management UI for functions. Connect your wallet to Polygon Mumbai on the Functions web app. 
+1. Go to the [Functions Subscriptions App](https://functions.chain.link). This is the subscription management UI for functions. Connect your wallet to Avalanche Fuji or Polygon Mumbai on the Functions web app. 
 
     Create your first subscription. This include two transactions:
         - one to accept the Terms of Service that adds your wallet address to the Allowlist, and
